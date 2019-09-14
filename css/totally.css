@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    min-height: 0 !important;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    color: #888;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+.span12 {
+    padding: 0 10px;
+}
+
+a,
+a:visited {
+    color: #40998d;
+    text-decoration:none;
+}
+
+a:focus,
+a:hover {
+    color: #e9adba;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+header img {
+    max-height: 162px;
+    max-width: 700px;
+}
+
+.vimeo {
+    padding-bottom: 20px;
+}
+
+footer {
+    font-size: 13px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer li {
+    padding: 0 !important;
+}
+
+p.center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* mobile phones */
+@media screen and (max-width: 767px) {
+    header img {
+        max-height: 64px;
+        max-width: 280px;
+    }
+
+    p.center {
+        text-align: left;
+    }
+}
+
+/* Wide Mobile :: Inherits from mobile */
+@media screen and (max-width: 480px) {
+    .mobile-hide {
+        display: none !important;
+    }
+}
+
+/* Wide Mobile :: Inherits from mobile */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    header img {
+        max-height: 106px;
+        max-width: 460px;
+    }
+}
